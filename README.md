@@ -7,5 +7,7 @@
      去官网下载log4cpp.tar.gz；
      解压后运行： ./configure -> make -> make check -> sudo make install
      连接log4cpp.so文件：export LD_LIBRARY_PATH=/usr/local/lib/
-     运行testlog4cpp.cc即可。
- ### 2.2 log4cpp日志系统的建立
+     编译：g++ testlog4cpp.cc -std=c++11 -llog4cpp -lpthread -o testlog4cpp
+     运行testlog4cpp即可。
+ ### 2.2 log4cpp日志系统的建立(三天)
+    第一天：构思-》log4tutorials.h
